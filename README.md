@@ -22,6 +22,7 @@ Recall that a maze was defined by a set of walls that separated each cell. If yo
   4 |  5 |  6 |  7
 --------------------
   8 |  9 | 10 | 11
+
 To create a maze, start by creating a list of all walls. Each wall can be represented as a tuple. For example in the above maze we would represent all walls as follows:
 
 [(0,1),(1,2),(2,3), (4,5),(5,6),(6,7), (8,9),(9,10),(10,11),(0,4),(4,8), (1,5),(5,9),(2,6),(6,10),(3,7),(7,11)]
