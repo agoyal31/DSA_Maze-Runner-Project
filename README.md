@@ -1,5 +1,5 @@
 
-## Part C: Maze Generation (10 marks)
+## Part C: Maze Generation
 
 
 In this last part of A3, you will use what you have created in this assignment and previous assignments to:
