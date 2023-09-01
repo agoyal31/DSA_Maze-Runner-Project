@@ -1,27 +1,41 @@
-Part C: Maze Generation
+
+## Part C: Maze Generation (10 marks)
+
+
 In this last part of A3, you will use what you have created in this assignment and previous assignments to:
 
-generate a new maze of a given size
-run your mazerunner function from A1 on your new maze
-Update import statement in a1_partd.py
+* generate a new maze of a given size
+* run your mazerunner function from A1 on your new maze
+
+
+
+### Update import statement in a1_partd.py
+
 Please alter the import statement for importing the maze to:
-
+```python
 from a3_maze import Maze
-it use to import from the file named maze.py but we need to update this to support alteration to data format. This object is essentially the same as the old maze and only differs on how the maze is loaded
+```
+it use to import from the file named maze.py but we need to update this to support alteration to data format.  This object is essentially the same as the old maze and only differs on how the maze is loaded
 
-Write the generat_maze function
+### Write the generat_maze function
+
 Write the following function:
 
+```python
 def generate_maze(number_of_rows, number_of_columns)
-This function is given the size of the maze in terms of number of rows and columns. It will return a python list of tuples representing the walls for this maze.
+```
 
-Recall that a maze was defined by a set of walls that separated each cell. If you were given a 3 X 4 maze, you would have 12 cells that were numbered as follows:
+This function is given the size of the maze in terms of number of rows and columns.  It will return a python list of tuples representing the walls for this maze.
 
+Recall that a maze was defined by a set of walls that separated each cell.  If you were given a 3 X 4 maze, you would have 12 cells that were numbered as follows:
+
+```
   0 |  1 |  2 |  3 
 --------------------  
   4 |  5 |  6 |  7
 --------------------
   8 |  9 | 10 | 11
+```
 
 To create a maze, start by creating a list of all walls. Each wall can be represented as a tuple. For example in the above maze we would represent all walls as follows:
 
